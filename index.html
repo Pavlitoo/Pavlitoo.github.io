@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Официантский кипер</title>
+  <link rel="icon" type="image/png" href="img/restaurant.png">
+
+
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="centered-content">
+        <h1>Официантский кипер</h1>
+    
+        <div>
+          <select id="dishSelect">
+            <option value="20">Омлет</option>
+            <option value="15">Салат Цезарь</option>
+            <option value="25">Стейк</option>
+            
+            <option value="12">Паста</option>
+            <option value="18">Суп</option>
+            <option value="22">Шашлык</option>
+            <option value="9">Рис с овощами</option>
+            <option value="35">Суши</option>
+            
+            <option value="40">Рыба</option>
+            <option value="28">Бургер</option>
+            <option value="21">Пицца</option>
+            <option value="23">Фрикадельки</option>
+            
+            <option value="32">Карри</option>
+            <option value="27">Чизкейк</option>
+            <option value="19">Мороженое</option>
+            <option value="24">Фруктовый салат</option>
+            
+            <option value="36">Пирог</option>
+            <option value="16">Курица с овощами</option>
+            <option value="33">Пельмени</option>
+            <option value="29">Кальмары</option>
+            
+            <option value="38">Тирамису</option>
+            <option value="17">Картофель фри</option>
+            <option value="26">Рататуй</option>
+            <option value="34">Шоколадный кейк</option>
+            
+            <option value="37">Маффины</option>
+            <option value="31">Паста карбонара</option>
+            <option value="41">Лобстер</option>
+            <option value="39">Тако</option>
+            
+          </select>
+          <input type="number" id="quantity" min="1" value="1">
+          <button id="addOrder">Добавить</button>
+        </div>
+    
+        <div id="orders">
+          <h2>Заказы</h2>
+          <ul id="orderList"></ul>
+          <p>Итоговая цена: <span id="totalPrice">0</span></p>
+          <button id="buyButton">Купить</button>
+          
+          
+        </div>
+
+        <div id="socialIcons">
+            <div id="socialYouTube">
+              <a href="https://www.youtube.com/channel/UCa66dOaAS1AbNRbLBlP1ppg">
+                <img src="img/youtube.png" alt="YouTube">
+              </a>
+            </div>
+            <div id="socialMedia">
+              <a href="https://www.instagram.com/l.pashaa/">
+                <img src="img/instagram.png" alt="Instagram">
+              </a>
+            </div>
+            <div id="socialGitHub">
+                <a href="https://github.com/Pavlitoo">
+                  <img src="img/github.png" alt="GitHub">
+                </a>
+              </div>
+          </div>
+      </div>
+  <script src="js/script.js"></script>
+
+</body>
+</html>

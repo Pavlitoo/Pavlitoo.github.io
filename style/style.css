@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .centered-content {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  h1 {
+    font-size: 30px;
+    margin: 0;
+    color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+ 
+  }
+  
+
+  button#addOrder {
+    padding: 10px 20px;
+    font-size: 17px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button#addOrder:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Выпадающий список */
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    background-color: #fff;
+    color: #333;
+    width: 130px;
+  }
+  
+  select option {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  select option:hover {
+    background-color: #f0f0f0;
+  }
+  
+
+  input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70px;
+  }
+  
+
+  #orders {
+    margin-top: 20px;
+  }
+  
+  #orderList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  button.remove {
+    margin-left: 10px;
+  }
+
+  
+
+#orders {
+    margin-top: 20px;
+    border-top: 2px solid #3498db;
+    padding-top: 20px;
+  }
+  
+  h2 {
+    color: #3498db;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  #orderList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #orderList li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  button.remove {
+    margin-left: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button.remove:hover {
+    background-color: #c0392b;
+  }
+  
+
+  #totalPrice {
+    font-weight: bold;
+    color: #3498db;
+  }
+
+  
+  #buyButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  #buyButton:hover {
+    background-color: #219a52;
+  }
+
+  #socialMedia {
+    text-align: right; 
+    margin-top: 10px; 
+  }
+
+  #socialMedia a {
+    display: inline-block;
+  }
+
+  #socialMedia img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  #socialYouTube {
+    text-align: right; 
+    margin-top: 10px; 
+  }
+
+  #socialYouTube a {
+    display: inline-block;
+  }
+
+  #socialGitHub img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  #socialGitHub {
+    text-align: right; 
+    margin-top: 10px; 
+  }
+
+  #socialGitHub a {
+    display: inline-block;
+  }
+
+  #socialYouTube img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .centered-content {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Добавим тень */
+
+  }
+  
+  .centered-content:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Увеличим тень при наведении */
+
+  }
+
+  #socialIcons {
+    display: flex;
+    justify-content: flex-end; /* Выравнивание по правому краю */
+    margin-top: 20px;
+  }
+  
+  #socialMedia,
+  #socialGitHub,
+  #socialYouTube {
+    margin-left: 10px; 
+  }
+  
+  #socialMedia img,
+  #socialGitHub,
+  #socialYouTube img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  
