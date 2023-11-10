@@ -1,25 +1,23 @@
 # Pavlitoo.github.io
 https://pavlitoo.github.io/
-# Официантский кипер
+##Waiter Keeper
+The Waiter Keeper project is a web application that allows users to select dishes from the menu, add and remove them from the order, calculate the total cost of the order, and make a purchase.
 
-Проект "Официантский кипер" представляет собой веб-приложение, которое позволяет пользователям выбирать блюда из меню, добавлять и удалять их из заказа, рассчитывать итоговую стоимость заказа, а также осуществлять покупку.
+##Description
+This web application is designed to simplify the process of ordering food in a restaurant or cafe. The user can select dishes from the presented list, indicate the quantity of each selected dish, add to the order, remove from the order, and then pay for the selected dishes.
 
-## Описание
+## Usage
 
-Это веб-приложение разработано для упрощения процесса заказа блюд в ресторане или кафе. Пользователь может выбирать блюда из представленного списка, указывать количество каждого выбранного блюда, добавлять в заказ, удалять из заказа, а затем произвести оплату за выбранные блюда.
+1. Select a dish from the drop-down list.
+2. Indicate the quantity of the selected dish.
+3. Click the "Add" button to add a dish to your order.
+4. If you wish, to change or delete an order item, use the appropriate buttons.
+5. Click the "Buy" button to complete your purchase.
 
-## Использование
+## Installation
 
-1. Выберите блюдо из выпадающего списка.
-2. Укажите количество выбранного блюда.
-3. Нажмите кнопку "Добавить" для добавления блюда в заказ.
-4. При желании, чтобы изменить или удалить элемент заказа, используйте соответствующие кнопки.
-5. Нажмите кнопку "Купить" для завершения покупки.
-
-## Установка
-
-1. Клонируйте репозиторий на локальную машину.
-2. Откройте `index.html` в вашем браузере.
+1. Clone the repository to your local machine.
+2. Open `index.html` in your browser.
 
 
 
