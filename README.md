@@ -1,9 +1,12 @@
 # Pavlitoo.github.io
 https://pavlitoo.github.io/
-##Waiter Keeper
+
+## Waiter Keeper
+
 The Waiter Keeper project is a web application that allows users to select dishes from the menu, add and remove them from the order, calculate the total cost of the order, and make a purchase.
 
-##Description
+## Description
+
 This web application is designed to simplify the process of ordering food in a restaurant or cafe. The user can select dishes from the presented list, indicate the quantity of each selected dish, add to the order, remove from the order, and then pay for the selected dishes.
 
 ## Usage
